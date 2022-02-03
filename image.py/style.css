@@ -1,0 +1,51 @@
+body{
+	text-align: center;
+}
+
+body *{
+	margin: 5px;
+}
+
+canvas {
+	border: 1px solid black;
+}
+
+textarea{
+	height: 800px;
+	width: 800px;
+	font-family: monospace;
+}
+form{
+	padding: 10px;
+	margin: 30px;
+	border: 2px solid blue;
+	border-radius: 10px;
+}
+
+form *{
+	margin: 10px;
+}
+
+input[type=button]{
+	background-color: #aaa;
+	border-radius: 20px;
+	border: none;
+	padding: 10px;
+}
+
+input[type=button]:hover{
+	background-color: #ccc;
+}
+
+input[type=text]{
+	min-width: 100px;
+	width:50%;
+}
+
+#go{
+	font-size: 200%;
+}
+
+#input_canvas{
+	max-width: 500px;
+}

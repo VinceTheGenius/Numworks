@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+    <title>Mettez une image sur la calculatrice !</title>
+    <link href=".../styles/general.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+		<div id="canvass">
+			<form>
+				<input type="text" placeholder="Url"><br>
+				<input type="file"><br>
+				<input type="button" value="Testez une image aléatoire"><br>
+				<input type="button" id="go" value="Go !"><br>
+			</form>
+			<canvas id="input_canvas">
+				Votre navigateur ne supporte pas la technologie canvas... Mettez le à jour en changez-en pour un plus récent
+			</canvas><br>
+			<canvas width="320" height="240" id="output_canvas">
+				Votre navigateur ne supporte pas la technologie canvas... Mettez le à jour en changez-en pour un plus récent
+			</canvas>
+		</div>
+		<a href="https://my.numworks.com/python/me/new">Pour rappel, le script doit être copié-collé ici </a><br>
+		<textarea spellcheck="false" id="text"></textarea>
+	
+		<div id="images">
+			<img hidden src="fond.png" id="fond">
+		</div>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+html>*{
+	margin:0;
+	padding:0;
+	font-family: "Poppins", Helvetica ,sans-serif;
+	color:#fff;
+	background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,246,1) 0%, rgba(126,162,206,1) 0%, rgba(1,0,36,1) 97%);
+}
+
+pre {
+	background-color: #eee;
+	color:#111;
+	border-radius:10px;
+	padding: 10px;
+}
+pre.omega{
+	 background:linear-gradient(to left, #c53431, #eee 10%, #eee 90%,#c53431);
+}
+
+div{
+	margin: 40px 40px;
+}
+
+header{
+	backdrop-filter: blur(8px);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+	border-bottom:3px solid white;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+/*footer {
+	background-color: #c53431;
+	border-top:3px solid white;
+  margin-bottom: 0px;
+}
+
+footer, header{
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+
+}*/
+
+.footer{
+  margin-top: 4rem;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem 0;
+  border-top:3px solid white;
+}
+.footer__title{
+  font-size: 2rem;
+  margin-bottom: .1rem;
+}
+.footer__social{
+  margin-bottom: .1rem;
+}
+.footer__icon{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 .5rem;
+}
+
+

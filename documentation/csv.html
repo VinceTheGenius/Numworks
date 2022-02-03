@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>La documentation du script Numworks sur les fichier CSV</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/general.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+		<header id="title">
+			<h1>Documentation du script CSV.py</h1>
+		</header>
+		<div id="index">
+			<h2>Index</h2>
+			<a href="#initialisation">Notation</a><br>
+			<a href="#initialisation">Initialisation</a><br>
+			<a href="#utilisation">Utilisation</a><br>
+			<a href="#modification">Modification</a><br>
+		</div>
+		<div id="notation">
+			<h2>Notation</h2>
+			<pre>
+instance=Csv(variable) #Script Python</pre>
+			<p>J'affiche les scripts python dans ceci ^ Et les scripts qui fonctionnent uniquement sous Oméga dans ceci \/.</p>	
+			<pre class="omega">
+instance=Csv()
+instance.open("csv.py") #Script Omega</pre>
+		</div>
+		<div id="initialisation">
+			<h2>Initialisation</h2>
+
+			<p> Déjà ce qui est important à savoir c'est que l'objet CSV ne peut gérer qu'une entrée sous forme de texte. Avec une virgule pour séparer les éléments et un retour à la ligne pour séparer les lignes.</p>
+			<p>Il y a trois moyens d'ouvrir d'initialiser un objet CSV.</p>
+			<p>Tout d'abords on peut mettre le texte directement dans le script.</p>
+			<pre>
+variable="""
+Nom,numéro,date_de_naissance
+Claude,0618493827,2004
+Gérard,0649382793,2006
+Léa,0792649355,2003
+...
+"""
+instance=Csv(variable)</pre>
+			<p>Deuxièmement on peut mettre le texte dans un fichier et importer le fichier dans le script charger de l'interpréter.</p>
+			<pre>
+variable="""
+Nom,numéro,date_de_naissance
+Claude,0618493827,2004
+Gérard,0649382793,2006
+Léa,0792649355,2003
+...
+"""
+</pre><pre>
+import csv_txt
+instance=Csv(csv_txt.variable)
+</pre>
+			<p>Et dernièrement on peut ouvrir un fichier python sans que le texte soit encodé dedans. Mais ATTENTION, cela ne fonctionne que sur Omega.</p>
+			<pre class="omega">
+Nom,numéro,date_de_naissance
+Claude,0618493827,2004
+Gérard,0649382793,2006
+Léa,0792649355,2003
+...
+</pre><pre class="omega">
+instance=Csv()
+instance.open("csv_txt.py")	</pre>
+		</div>
+		<div id="utilisation">
+		</div>
+		<div id="modification">
+		</div>
+
+  </body>
+</html>
