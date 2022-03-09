@@ -18,7 +18,9 @@
 <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=red">
 <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=blue">
 <img src="https://img.shields.io/badge/-JS-000000?style=for-the-badge&logo=JavaScript&logoColor=yellow">
-    <a href="https://replit.com/@VinceTheGenius/Numworks?v=1"><strong>Explore the code</strong></a>
+  <br />
+  <br />
+    <a href="https://replit.com/@VinceTheGenius/Numworks?v=1"><strong>Explorer le code</strong></a>
     <br />
     <br />
     <a href="https://numworks.vercel.app/">View Demo</a>
