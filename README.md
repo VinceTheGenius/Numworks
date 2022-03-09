@@ -14,7 +14,6 @@
     <br />
     Il vous permettera de trier tout les programmes dans notre base de donnee par criteres (jeux, graphique, utilitaire, etc...).
     <br /> <br />
-    
     <h4 align="center">Made with :</h4/>
     ![Html5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=red)
     ![Css3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=blue)
