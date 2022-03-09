@@ -9,11 +9,16 @@
 
   <p align="center">
     Un site pour trouver encore plsu de programme pour la calculatrice lycee Numwork !
-    <br />
+    <br /> <br />
     La premiere verion a ete realisée par <a href="https://replit.com/@Antarctus">Antarctus</a>, et ameliorée par moi.
     <br />
-    Il vous permettera de trier tout les progrmmes dans notre base de donnee par criteres (jeux, graphique, utilitaire, etc...).
-    <br />
+    Il vous permettera de trier tout les programmes dans notre base de donnee par criteres (jeux, graphique, utilitaire, etc...).
+    <br /> <br />
+    
+    <h4 align="center">Made with :</h4/>
+    ![Html5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=red)
+    ![Css3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=blue)
+    ![JS](https://img.shields.io/badge/-JS-000000?style=for-the-badge&logo=JavaScript&logoColor=yellow)
     <a href="https://replit.com/@VinceTheGenius/Numworks?v=1"><strong>Explore the code</strong></a>
     <br />
     <br />
