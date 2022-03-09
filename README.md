@@ -10,7 +10,7 @@
   <p align="center">
     Un site pour trouver encore plsu de programme pour la calculatrice lycee Numwork !
     <br />
-    La premiere verion a ete realisee par <a href="https://replit.com/@Antarctus">Antarctus</a>, et amelioree par moi.
+    La premiere verion a ete realisée par <a href="https://replit.com/@Antarctus">Antarctus</a>, et ameliorée par moi.
     <br />
     Il vous permettera de trier tout les progrmmes dans notre base de donnee par criteres (jeux, graphique, utilitaire, etc...).
     <br />
