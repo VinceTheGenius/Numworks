@@ -289,5 +289,15 @@ var scripts = [
 		author:"schraf",
 		extension:"",
 		tags: ["graphique","utilitaire"],
+	},{
+		name:"calendrier",
+		author:"antarctus",
+		extension:"",
+		tags: ["graphique","utilitaire"]
+	},{
+		name:"chronometre",
+		author:"antarctus",
+		extension:"",
+		tags: ["graphique","utilitaire","animation"],
 	}
 ]

@@ -50,6 +50,7 @@ span.tag{
 	padding: 8px;
 	border: 2px solid white;
 	white-space: nowrap;
+  cursor: pointer;
 }
 
 div.script p{
